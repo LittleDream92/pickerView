@@ -13,8 +13,6 @@
 		A83114321CD98E8E002E87EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A83114301CD98E8E002E87EF /* Main.storyboard */; };
 		A83114341CD98E8E002E87EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A83114331CD98E8E002E87EF /* Assets.xcassets */; };
 		A83114371CD98E8E002E87EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A83114351CD98E8E002E87EF /* LaunchScreen.storyboard */; };
-		A83114411CD98F5A002E87EF /* MFPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = A83114401CD98F5A002E87EF /* MFPickerView.m */; };
-		A83114431CD98F67002E87EF /* MFPickerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A83114421CD98F67002E87EF /* MFPickerView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,9 +26,6 @@
 		A83114331CD98E8E002E87EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A83114361CD98E8E002E87EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A83114381CD98E8E002E87EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A831143F1CD98F5A002E87EF /* MFPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFPickerView.h; sourceTree = "<group>"; };
-		A83114401CD98F5A002E87EF /* MFPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFPickerView.m; sourceTree = "<group>"; };
-		A83114421CD98F67002E87EF /* MFPickerView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MFPickerView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,7 +60,6 @@
 			children = (
 				A831142A1CD98E8E002E87EF /* AppDelegate.h */,
 				A831142B1CD98E8E002E87EF /* AppDelegate.m */,
-				A831143E1CD98F22002E87EF /* PickerView */,
 				A831142D1CD98E8E002E87EF /* ViewController.h */,
 				A831142E1CD98E8E002E87EF /* ViewController.m */,
 				A83114301CD98E8E002E87EF /* Main.storyboard */,
@@ -83,16 +77,6 @@
 				A83114281CD98E8E002E87EF /* main.m */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		A831143E1CD98F22002E87EF /* PickerView */ = {
-			isa = PBXGroup;
-			children = (
-				A831143F1CD98F5A002E87EF /* MFPickerView.h */,
-				A83114401CD98F5A002E87EF /* MFPickerView.m */,
-				A83114421CD98F67002E87EF /* MFPickerView.xib */,
-			);
-			name = PickerView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -153,7 +137,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				A83114371CD98E8E002E87EF /* LaunchScreen.storyboard in Resources */,
-				A83114431CD98F67002E87EF /* MFPickerView.xib in Resources */,
 				A83114341CD98E8E002E87EF /* Assets.xcassets in Resources */,
 				A83114321CD98E8E002E87EF /* Main.storyboard in Resources */,
 			);
@@ -167,7 +150,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				A831142F1CD98E8E002E87EF /* ViewController.m in Sources */,
-				A83114411CD98F5A002E87EF /* MFPickerView.m in Sources */,
 				A831142C1CD98E8E002E87EF /* AppDelegate.m in Sources */,
 				A83114291CD98E8E002E87EF /* main.m in Sources */,
 			);
@@ -320,6 +302,7 @@
 				A831143D1CD98E8E002E87EF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
